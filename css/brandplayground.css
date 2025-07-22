@@ -161,7 +161,10 @@ code, kbd, pre, samp {
     min-height: 3.75rem;
     transition: border-color 0.3s ease;
   }
-
+.form-group-2 textarea {
+  padding: 2rem 8rem 1rem 1.5rem; /* adjust as needed */
+  box-sizing: border-box; /* so padding doesn't break layout */
+}
   .contact-form input:focus,
   .contact-form textarea:focus {
     border-color: #d2ef8b; /* Brand Playground accent */
